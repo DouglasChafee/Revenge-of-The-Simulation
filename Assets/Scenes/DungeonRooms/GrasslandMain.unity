@@ -1,0 +1,3085 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &6018573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6018574}
+  m_Layer: 0
+  m_Name: UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6018574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6018573}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1482, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 114974477}
+  - {fileID: 1806001297}
+  m_Father: {fileID: 699005969}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &41805928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 41805929}
+  - component: {fileID: 41805930}
+  - component: {fileID: 41805931}
+  m_Layer: 10
+  m_Name: HealthBar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &41805929
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41805928}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 945916994}
+  - {fileID: 962934139}
+  - {fileID: 721428418}
+  m_Father: {fileID: 114974477}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -631, y: 218}
+  m_SizeDelta: {x: 222.363, y: 32.316}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &41805930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41805928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 0
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 0
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 0
+  m_TargetGraphic: {fileID: 0}
+  m_FillRect: {fileID: 945916994}
+  m_HandleRect: {fileID: 0}
+  m_Direction: 0
+  m_MinValue: 0
+  m_MaxValue: 100
+  m_WholeNumbers: 0
+  m_Value: 100
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &41805931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41805928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baf4156386fae9d478cb19604928a67a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 41805930}
+--- !u!1 &114974476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 114974477}
+  - component: {fileID: 114974480}
+  - component: {fileID: 114974479}
+  - component: {fileID: 114974478}
+  m_Layer: 10
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &114974477
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114974476}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1599199678}
+  - {fileID: 286476573}
+  - {fileID: 378174677}
+  - {fileID: 942021692}
+  - {fileID: 1269159391}
+  - {fileID: 41805929}
+  - {fileID: 1179474624}
+  - {fileID: 1541251514}
+  m_Father: {fileID: 6018574}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &114974478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114974476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &114974479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114974476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 1
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &114974480
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114974476}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 1806001298}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 43041051
+  m_SortingOrder: 10
+  m_TargetDisplay: 0
+--- !u!1001 &165517960
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4675691280994978128, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978128, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: cameraChange.x
+      value: -17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978128, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: cameraChange.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978128, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: playerChange.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978133, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_Name
+      value: RoomTransfer (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+--- !u!1 &286476572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 286476573}
+  - component: {fileID: 286476575}
+  - component: {fileID: 286476574}
+  m_Layer: 10
+  m_Name: Image (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &286476573
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286476572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 25.421247, y: 2.1582432, z: 1}
+  m_Children: []
+  m_Father: {fileID: 114974477}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -154, y: -488.335}
+  m_SizeDelta: {x: 100, y: 180.312}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &286476574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286476572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.2784314, g: 0.2784314, b: 0.2784314, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &286476575
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286476572}
+  m_CullTransparentMesh: 1
+--- !u!1 &309749776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 309749777}
+  - component: {fileID: 309749780}
+  - component: {fileID: 309749779}
+  - component: {fileID: 309749778}
+  m_Layer: 0
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &309749777
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309749776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 648706445}
+  m_Father: {fileID: 1179474624}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000034332, y: -91}
+  m_SizeDelta: {x: 428.046, y: 80.259}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &309749778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309749776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 309749779}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1179474625}
+        m_TargetAssemblyTypeName: GameOverScreen, Assembly-CSharp
+        m_MethodName: RestartButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &309749779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309749776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.4811321, g: 0.020425411, b: 0.020425411, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &309749780
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309749776}
+  m_CullTransparentMesh: 1
+--- !u!1 &378174676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 378174677}
+  - component: {fileID: 378174679}
+  - component: {fileID: 378174678}
+  m_Layer: 10
+  m_Name: Image (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &378174677
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378174676}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 25.421247, y: 2.1582432, z: 1}
+  m_Children: []
+  m_Father: {fileID: 114974477}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -154, y: 497.24017}
+  m_SizeDelta: {x: 100, y: 187.811}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &378174678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378174676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.2784314, g: 0.2784314, b: 0.2784314, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &378174679
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378174676}
+  m_CullTransparentMesh: 1
+--- !u!1 &386044224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 386044225}
+  - component: {fileID: 386044227}
+  - component: {fileID: 386044226}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &386044225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386044224}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1155850046}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!483693784 &386044226
+TilemapRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386044224}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_ChunkSize: {x: 32, y: 32, z: 32}
+  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_MaxChunkCount: 16
+  m_MaxFrameAge: 16
+  m_SortOrder: 0
+  m_Mode: 0
+  m_DetectChunkCullingBounds: 0
+  m_MaskInteraction: 0
+--- !u!1839735485 &386044227
+Tilemap:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386044224}
+  m_Enabled: 1
+  m_Tiles: {}
+  m_AnimatedTiles: {}
+  m_TileAssetArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  m_TileSpriteArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  m_TileMatrixArray:
+  - m_RefCount: 0
+    m_Data:
+      e00: 0
+      e01: 1.8984253e-38
+      e02: 1.898302e-38
+      e03: 1.898302e-38
+      e10: 0
+      e11: 1.35e-43
+      e12: 1.35e-43
+      e13: 1.35e-43
+      e20: -4.0564678e+18
+      e21: 1.590227e+29
+      e22: -0.0000000019188295
+      e23: 1.590227e+29
+      e30: 4.5904e-41
+      e31: 6e-43
+      e32: 5.97e-43
+      e33: 6e-43
+  m_TileColorArray:
+  - m_RefCount: 0
+    m_Data: {r: 1.795536e+29, g: 1.795536e+29, b: 1.795536e+29, a: 1.795536e+29}
+  m_TileObjectToInstantiateArray: []
+  m_AnimationFrameRate: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Origin: {x: -42, y: -15, z: 0}
+  m_Size: {x: 125, y: 85, z: 1}
+  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileOrientation: 0
+  m_TileOrientationMatrix:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+--- !u!1 &519420028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 519420032}
+  - component: {fileID: 519420031}
+  - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
+  - component: {fileID: 519420034}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &519420029
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e075df49d460bb4ba0ceb98f0335504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currRoom: {fileID: 0}
+  moveSpeedWhenRoomChange: 100
+--- !u!20 &519420031
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 25
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &519420032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 699005969}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a3f15e84cc7fd743a401ea59f0d6592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currRoom: {fileID: 0}
+  target: {fileID: 1319837358}
+  camera: {fileID: 519420031}
+  smoothing: 0.6
+  maxPosition: {x: 0, y: 0}
+  minPosition: {x: 0, y: 0}
+--- !u!82 &519420034
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9267b8b2252a6974bba0929844af54a4, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &648706444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 648706445}
+  - component: {fileID: 648706447}
+  - component: {fileID: 648706446}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &648706445
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648706444}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 309749777}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &648706446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648706444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 70
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Restart
+--- !u!222 &648706447
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648706444}
+  m_CullTransparentMesh: 1
+--- !u!1 &677473361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 677473362}
+  - component: {fileID: 677473364}
+  - component: {fileID: 677473363}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &677473362
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677473361}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1179474624}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.00021362, y: 111.99999}
+  m_SizeDelta: {x: 1112.221, y: 208.542}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &677473363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677473361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 4beb055f07aaff244873dec698d0363e, type: 3}
+    m_FontSize: 100
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 200
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Game Over
+--- !u!222 &677473364
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677473361}
+  m_CullTransparentMesh: 1
+--- !u!1 &699005968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 699005969}
+  m_Layer: 0
+  m_Name: GameHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &699005969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699005968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 519420032}
+  - {fileID: 6018574}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &721428417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 721428418}
+  - component: {fileID: 721428420}
+  - component: {fileID: 721428419}
+  m_Layer: 10
+  m_Name: Heart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &721428418
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721428417}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 41805929}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 6.5999985, y: -0.00000014304}
+  m_SizeDelta: {x: 46.628, y: 43.041}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &721428419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721428417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 7254bfba4b702634cb60219ac5563f24, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &721428420
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721428417}
+  m_CullTransparentMesh: 1
+--- !u!1 &815701566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 815701567}
+  - component: {fileID: 815701569}
+  - component: {fileID: 815701568}
+  - component: {fileID: 815701570}
+  m_Layer: 0
+  m_Name: Text (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &815701567
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815701566}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1179474624}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.00042725, y: -292}
+  m_SizeDelta: {x: 1592.254, y: 208.542}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &815701568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815701566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Highscore
+--- !u!222 &815701569
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815701566}
+  m_CullTransparentMesh: 1
+--- !u!114 &815701570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815701566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e10902b2c075624b8bc92271fedd895, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &871043406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 871043408}
+  - component: {fileID: 871043407}
+  - component: {fileID: 871043409}
+  m_Layer: 0
+  m_Name: Script
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &871043407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871043406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4041d4df1b764024380ddffa5b7b6840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadedRooms: []
+  getFloor: {fileID: 1319837357}
+--- !u!4 &871043408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871043406}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &871043409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871043406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fb6ca36d0fd55f499425a26c8f323d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dungeonGenerationData: {fileID: 11400000, guid: f5867e2d3f16088478fc90214da47486, type: 2}
+  EmptyRooms:
+  - Empty
+  - 3
+  EmptyRooms2:
+  - Level4
+  EmptyRooms3:
+  - Level3
+  EmptyRooms4:
+  - Level3
+  - Level10
+  EmptyRooms5:
+  - Level1
+  - Level2
+  - Level3
+  - Level4
+  - Level7
+  - Level10
+  EmptyRooms8:
+  - Level1
+  - Level2
+  - Level3
+--- !u!1 &900402153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 900402156}
+  - component: {fileID: 900402155}
+  - component: {fileID: 900402154}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &900402154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900402153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &900402155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900402153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &900402156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900402153}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &942021691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 942021692}
+  - component: {fileID: 942021694}
+  - component: {fileID: 942021693}
+  m_Layer: 10
+  m_Name: Image (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &942021692
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942021691}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 5.4377, y: 12.33, z: 1}
+  m_Children: []
+  m_Father: {fileID: 114974477}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1151.2224, y: 0}
+  m_SizeDelta: {x: 123.09, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &942021693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942021691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.2784314, g: 0.2784314, b: 0.2784314, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &942021694
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942021691}
+  m_CullTransparentMesh: 1
+--- !u!1 &945916993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 945916994}
+  - component: {fileID: 945916996}
+  - component: {fileID: 945916995}
+  m_Layer: 10
+  m_Name: Fill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &945916994
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945916993}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 41805929}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &945916995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945916993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.93725497, g: 0.058823533, b: 0.11764707, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &945916996
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945916993}
+  m_CullTransparentMesh: 1
+--- !u!1 &962934138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 962934139}
+  - component: {fileID: 962934141}
+  - component: {fileID: 962934140}
+  m_Layer: 10
+  m_Name: Border
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &962934139
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962934138}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 41805929}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 2, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &962934140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962934138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5202eb08178f5204f98c67e630c3d261, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &962934141
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962934138}
+  m_CullTransparentMesh: 1
+--- !u!1 &1155850044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1155850046}
+  - component: {fileID: 1155850045}
+  m_Layer: 0
+  m_Name: Grid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!156049354 &1155850045
+Grid:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155850044}
+  m_Enabled: 1
+  m_CellSize: {x: 1, y: 1, z: 0}
+  m_CellGap: {x: 0, y: 0, z: 0}
+  m_CellLayout: 0
+  m_CellSwizzle: 0
+--- !u!4 &1155850046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155850044}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1828108592}
+  - {fileID: 386044225}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1179474623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1179474624}
+  - component: {fileID: 1179474627}
+  - component: {fileID: 1179474626}
+  - component: {fileID: 1179474625}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1179474624
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179474623}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.000026, y: 1.000026, z: 1.000026}
+  m_Children:
+  - {fileID: 677473362}
+  - {fileID: 1480095215}
+  - {fileID: 309749777}
+  - {fileID: 1823356244}
+  - {fileID: 815701567}
+  m_Father: {fileID: 114974477}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.00012207031, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1179474625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179474623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7091e2fe07af9284b989e27be40c417f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointsText: {fileID: 1823356245}
+  highscoreText: {fileID: 815701568}
+--- !u!114 &1179474626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179474623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.79607844}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1179474627
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179474623}
+  m_CullTransparentMesh: 1
+--- !u!1 &1269159390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1269159391}
+  m_Layer: 10
+  m_Name: Window_Version
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1269159391
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269159390}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 114974477}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1279712836 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6774771346667357115, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+  m_PrefabInstance: {fileID: 1319837356}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1279712844
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279712836}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f849b6065642f7f41a66ea60683f1557, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &1319837356
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6774771346613987739, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357105, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: firePoint
+      value: 
+      objectReference: {fileID: 2113255925}
+    - target: {fileID: 6774771346667357105, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 41805931}
+    - target: {fileID: 6774771346667357105, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: tripleShot
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357105, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: getPlayerBool
+      value: 
+      objectReference: {fileID: 1319837357}
+    - target: {fileID: 6774771346667357105, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: GameOverScreen
+      value: 
+      objectReference: {fileID: 1179474625}
+    - target: {fileID: 6774771346667357114, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300008, guid: 6f5c6e1922389384cb1736af0690439b, type: 3}
+    - target: {fileID: 6774771346667357115, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_Name
+      value: player-idle-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357116, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_Size.x
+      value: 0.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357116, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_Size.y
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357116, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.05912899
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357116, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357116, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357116, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357117, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357117, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357117, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357117, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357117, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357117, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357117, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357117, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357117, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357117, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357117, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357117, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357117, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357118, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1279712844}
+    - target: {fileID: 6774771346667357118, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: jumpSpeed
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346667357118, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: speedValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346701988735, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774771346701988735, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+--- !u!114 &1319837357 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 795125583206232106, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+  m_PrefabInstance: {fileID: 1319837356}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279712836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3773ef85cf4b744846380a834c8626, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1319837358 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6774771346667357117, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+  m_PrefabInstance: {fileID: 1319837356}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1480095214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1480095215}
+  - component: {fileID: 1480095217}
+  - component: {fileID: 1480095216}
+  m_Layer: 0
+  m_Name: Text (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1480095215
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480095214}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1179474624}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.000103, y: 0.0000019073}
+  m_SizeDelta: {x: 1592.254, y: 208.542}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1480095216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480095214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'You did not restore your identity,
+
+    and you will become further detached
+    from reality'
+--- !u!222 &1480095217
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480095214}
+  m_CullTransparentMesh: 1
+--- !u!1 &1541251513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1541251514}
+  - component: {fileID: 1541251517}
+  - component: {fileID: 1541251516}
+  - component: {fileID: 1541251515}
+  m_Layer: 0
+  m_Name: PointText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1541251514
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541251513}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.000026, y: 1.000026, z: 1.000026}
+  m_Children: []
+  m_Father: {fileID: 114974477}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 580.0003, y: 145}
+  m_SizeDelta: {x: 447.095, y: 208.542}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1541251515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541251513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 630fc774f02d41b4aa01506b22f79d6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1541251516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541251513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 10 points
+--- !u!222 &1541251517
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541251513}
+  m_CullTransparentMesh: 1
+--- !u!1 &1599199677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1599199678}
+  - component: {fileID: 1599199680}
+  - component: {fileID: 1599199679}
+  m_Layer: 10
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1599199678
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599199677}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 5.4377, y: 12.33, z: 1}
+  m_Children: []
+  m_Father: {fileID: 114974477}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1148.1265, y: 0}
+  m_SizeDelta: {x: 122.758, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1599199679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599199677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.2784314, g: 0.2784314, b: 0.2784314, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1599199680
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599199677}
+  m_CullTransparentMesh: 1
+--- !u!1 &1662889247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1662889249}
+  - component: {fileID: 1662889248}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1662889248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662889247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128bffe48a37c934d946024ed98f3076, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: 7c17c3fd45f4bfb4890fe05117ac11b7, type: 3}
+    name: PlayerDeath
+    volume: 0.74
+    pitch: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: b1b9d130fa7883647b6a6b07c0b6ce54, type: 3}
+    name: Shoot
+    volume: 0.7
+    pitch: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: feaaccfe09eaed4449d00d501aad936c, type: 3}
+    name: HealthGain
+    volume: 0.7
+    pitch: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: bb1078c4478344e49b9af72e2943eb9a, type: 3}
+    name: Jump
+    volume: 0.32
+    pitch: 1
+    source: {fileID: 0}
+--- !u!4 &1662889249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662889247}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.719954, y: 2.1687574, z: -0.66585225}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1806001296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1806001297}
+  - component: {fileID: 1806001298}
+  m_Layer: 0
+  m_Name: UICamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1806001297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806001296}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6018574}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &1806001298
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806001296}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 3
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 100
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!1 &1823356243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1823356244}
+  - component: {fileID: 1823356246}
+  - component: {fileID: 1823356245}
+  m_Layer: 0
+  m_Name: Text (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1823356244
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823356243}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1179474624}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 2879, y: 1642}
+  m_SizeDelta: {x: 1592.254, y: 208.542}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1823356245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823356243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Score
+--- !u!222 &1823356246
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823356243}
+  m_CullTransparentMesh: 1
+--- !u!1 &1828108591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1828108592}
+  - component: {fileID: 1828108594}
+  - component: {fileID: 1828108593}
+  - component: {fileID: 1828108595}
+  - component: {fileID: 1828108598}
+  - component: {fileID: 1828108597}
+  - component: {fileID: 1828108596}
+  m_Layer: 6
+  m_Name: Ground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1828108592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828108591}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1155850046}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!483693784 &1828108593
+TilemapRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828108591}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -627146047
+  m_SortingLayer: -1
+  m_SortingOrder: 0
+  m_ChunkSize: {x: 32, y: 32, z: 32}
+  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_MaxChunkCount: 16
+  m_MaxFrameAge: 16
+  m_SortOrder: 0
+  m_Mode: 0
+  m_DetectChunkCullingBounds: 0
+  m_MaskInteraction: 0
+--- !u!1839735485 &1828108594
+Tilemap:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828108591}
+  m_Enabled: 1
+  m_Tiles: {}
+  m_AnimatedTiles: {}
+  m_TileAssetArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  m_TileSpriteArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  m_TileMatrixArray:
+  - m_RefCount: 0
+    m_Data:
+      e00: 0
+      e01: 1.8984253e-38
+      e02: 1.898302e-38
+      e03: 1.898302e-38
+      e10: 0
+      e11: 1.35e-43
+      e12: 1.35e-43
+      e13: 1.35e-43
+      e20: -4.0564678e+18
+      e21: 1.5891783e+29
+      e22: -0.0000000019229365
+      e23: 1.5891783e+29
+      e30: 4.5904e-41
+      e31: 6e-43
+      e32: 5.97e-43
+      e33: 6e-43
+  m_TileColorArray:
+  - m_RefCount: 0
+    m_Data: {r: 1.5891118e+29, g: 1.5891118e+29, b: 1.5891118e+29, a: 1.5891118e+29}
+  m_TileObjectToInstantiateArray: []
+  m_AnimationFrameRate: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Origin: {x: -44, y: -20, z: 0}
+  m_Size: {x: 125, y: 88, z: 1}
+  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileOrientation: 0
+  m_TileOrientationMatrix:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+--- !u!19719996 &1828108595
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828108591}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: f3bd7d3f41dc0954a956401432a2004b, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
+--- !u!61 &1828108596
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828108591}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.47179484, y: -0.5217972}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.0050507, y: 0.946115}
+  m_EdgeRadius: 0
+--- !u!61 &1828108597
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828108591}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -3.4910421, y: 0.507694}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0588872, y: 1.0307302}
+  m_EdgeRadius: 0
+--- !u!61 &1828108598
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828108591}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 3.493538, y: -3.4996934}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 26.987076, y: 3.0006132}
+  m_EdgeRadius: 0
+--- !u!4 &2113255925 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6774771346701988735, guid: c304ab0a842e60a458a41dfcc6bd0857, type: 3}
+  m_PrefabInstance: {fileID: 1319837356}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &361347336201934636
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5070001459456224614, guid: a490908bd0be63240958dba5ef6716aa, type: 3}
+      propertyPath: m_Name
+      value: A_19x19
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070001459456224632, guid: a490908bd0be63240958dba5ef6716aa, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070001459456224632, guid: a490908bd0be63240958dba5ef6716aa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070001459456224632, guid: a490908bd0be63240958dba5ef6716aa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070001459456224632, guid: a490908bd0be63240958dba5ef6716aa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24.096748
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070001459456224632, guid: a490908bd0be63240958dba5ef6716aa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070001459456224632, guid: a490908bd0be63240958dba5ef6716aa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070001459456224632, guid: a490908bd0be63240958dba5ef6716aa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070001459456224632, guid: a490908bd0be63240958dba5ef6716aa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070001459456224632, guid: a490908bd0be63240958dba5ef6716aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070001459456224632, guid: a490908bd0be63240958dba5ef6716aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070001459456224632, guid: a490908bd0be63240958dba5ef6716aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070001459456224633, guid: a490908bd0be63240958dba5ef6716aa, type: 3}
+      propertyPath: data.dataString
+      value: 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
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a490908bd0be63240958dba5ef6716aa, type: 3}
+--- !u!1001 &4675691280803324276
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4675691280994978128, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978128, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: cameraChange.x
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978128, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: cameraChange.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978133, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_Name
+      value: RoomTransfer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675691280994978134, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0db80ab059600fd4d9015f23488ab28b, type: 3}
